@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
-var client_id = 'CEXIYIE_YHeC02PAVYkq';
-var client_secret = 'knMeyuQ5GI';
+var client_id = 'client_id';
+var client_secret = 'client_secret';
 var fs = require('fs');
 
 app.get('/tts', function (req, res) {
