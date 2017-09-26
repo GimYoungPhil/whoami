@@ -1,9 +1,11 @@
 <template>
-  <div class="columns is-4 is-variable is-multiline is-mobile">
+  <div class="columns is-gapless is-multiline is-mobile">
     <div class="column is-one-quarter-mobile is-12-desktop" v-for="(member, index) in family" v-bind:key="index">
-      <button class=" has-text-centered" v-on:click="select(member.enName)">
+      <button class="button has-text-centered is-family"
+              v-bind:class="[member.color]"
+              v-on:click="select(member.enName)">
         <figure class="">
-          <img class="family" v-bind:src="member.imageThmb">
+          <img class="img-family" v-bind:src="member.imageThmb">
         </figure>
       </button>
     </div>
@@ -26,7 +28,11 @@ export default {
 </script>
 
 <style>
-.family {
+.is-family {
+  height: 100%;
+}
+
+.img-family {
   border-radius: 50%;
   width: 100px;
   height: 100px;

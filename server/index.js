@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
-var client_id = 'client_id';
-var client_secret = 'client_secret';
+var client_id = 'CEXIYIE_YHeC02PAVYkq';
+var client_secret = 'knMeyuQ5GI';
 var fs = require('fs');
 
 app.get('/tts', function (req, res) {
@@ -9,7 +9,7 @@ app.get('/tts', function (req, res) {
    var request = require('request');
    var options = {
        url: api_url,
-       form: {'speaker':'mijin', 'speed':'0', 'text':'김서진'},
+       form: {'speaker':'mijin', 'speed':'0', 'text':'엄마'},
        headers: {'X-Naver-Client-Id':client_id, 'X-Naver-Client-Secret': client_secret}
     };
     var writeStream = fs.createWriteStream('./tts1.mp3');

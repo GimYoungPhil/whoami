@@ -27,6 +27,7 @@ export default [
     "imageThmb": Img1,
     "imageURL": Img11,
     "audio": Mp1,
+    "color": 'is-danger',
   },
   {
     "enName": "daddy",
@@ -34,6 +35,7 @@ export default [
     "imageThmb": Img2,
     "imageURL": Img12,
     "audio": Mp2,
+    "color": 'is-warning',
   },
   {
     "enName": "wujin",
@@ -41,6 +43,7 @@ export default [
     "imageThmb": Img3,
     "imageURL": Img13,
     "audio": Mp3,
+    "color": 'is-success',
   },
   {
     "enName": "seojin",
@@ -48,20 +51,23 @@ export default [
     "imageThmb": Img4,
     "imageURL": Img14,
     "audio": Mp4,
-  },
-  {
-    "enName": "grandpa",
-    "koName": "할아버지",
-    "imageThmb": Img5,
-    "imageURL": Img15,
-    "audio": Mp5,
+    "color": 'is-info',
   },
   {
     "enName": "grandma",
     "koName": "할머니",
+    "imageThmb": Img5,
+    "imageURL": Img15,
+    "audio": Mp5,
+    "color": 'is-primary',
+  },
+  {
+    "enName": "grandpa",
+    "koName": "할아버지",
     "imageThmb": Img6,
     "imageURL": Img16,
     "audio": Mp6,
+    "color": 'is-light',
   },
   {
     "enName": "uncle",
@@ -69,5 +75,6 @@ export default [
     "imageThmb": Img7,
     "imageURL": Img17,
     "audio": Mp7,
+    "color": 'is-dark',
   }
 ]
